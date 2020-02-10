@@ -51,6 +51,30 @@ p {
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
+/* Twitter API Styles (Contact) */
+.twitter-container {
+  width: 50%; 
+  height: 500px; 
+  overflow-y: scroll; 
+  overflow-x: hidden;
+}
+
+.twitter-container::-webkit-scrollbar {
+  width: 8px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  border-radius: 10px;
+}
+
+.twitter-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.flex-row {
+  display: flex; 
+  justify-content: space-evenly;
+}
+
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
