@@ -39,7 +39,7 @@ p {
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("https://images.unsplash.com/photo-1548003693-b55d51032288?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-image: url("https://images.unsplash.com/photo-1560252719-59e35a3bbc6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
   min-height: 400px;
 }
 
@@ -76,10 +76,6 @@ p {
   justify-content: space-evenly;
 }
 
-/* Twitch Styling*/
-#twitch-embed{
-  text-align: center;
-}
 
 
 /* Turn off parallax scrolling for tablets and phones */
