@@ -60,14 +60,20 @@
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
   <h3 class="w3-center">Check Out Our Channel and Latest Upload</h3>
   <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
-  <!-- Twitch and YouTube Row -->
-  <div class="w3-container">
-    <!-- YouTube Video -->
-    <div style="margin: 0 auto;">
-      <iframe width="100%" height="500" src="https://www.youtube-nocookie.com/embed/OoLtkoLJj8w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="flex-mobile">
+
+    <!-- Twitch and YouTube Row -->
+    <div class="w3-container video-container">
+      <!-- YouTube Video -->
+      <div>
+        <iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/OoLtkoLJj8w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div class="w3-center" id="twitch-embed"></div>
     </div>
   </div>
-  <div class="w3-center" id="twitch-embed"></div>
 </div>
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
@@ -170,8 +176,8 @@ function toggleFunction() {
     <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
     <script type="text/javascript">
       new Twitch.Embed("twitch-embed", {
-        width: 854,
-        height: 480,
+        width: "100%",
+        height: 400,
         channel: "katsugg",
         layout: "video"
       });
