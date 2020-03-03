@@ -65,6 +65,15 @@ p {
   font-size: 24px;
 }
 
+/* Social Icons */ 
+.social-icon {
+  text-decoration: none;
+}
+
+.social-icon i {
+  font-size: 36px;
+}
+
 /* Twitter API Styles (Contact) */
 .twitter-container {
   width: 50%;
