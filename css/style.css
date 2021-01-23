@@ -103,6 +103,7 @@ p {
   width: 50%;
 }
 
+
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1200px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -135,9 +136,4 @@ p {
     font-size: 20px;
     letter-spacing: 3px;
   }
-}
-
-/*mobile twitch styling */
-#twitch-embed{
-
 }
